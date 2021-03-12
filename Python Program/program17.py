@@ -1,0 +1,15 @@
+#list
+subject = ["c","c++","java","Html","CSS","js"]
+print(subject)
+print(subject[0])
+print(subject[0:4])
+print(subject[:2])
+print(subject[2:])
+print(subject[-3:-1])
+print(len(subject))
+subject.append("Django")
+print(subject)
+subject.insert(1,"php")
+print(subject)
+subject.remove("java")
+print(subject)
